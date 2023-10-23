@@ -1,0 +1,245 @@
+
+
+*{padding: 0;
+    margin: 0; font-family: 'Josefin Sans', sans-serif; box-sizing: 
+    border-box;
+    }
+
+
+header{
+
+    justify-content: space-between;
+ display:flex;
+text-align: center;
+align-items: center;
+background-color:yellow;
+height:100px;
+width: 100%;
+padding-left: 50px;
+padding-right: 50px;
+overflow: hidden;
+
+}
+
+    nav{ display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 45px;
+        padding-left: 8%;
+        padding-right: 8%;
+  
+}
+
+nav ul{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}nav ul li{
+
+
+    list-style-type: none;
+    margin-right: 50px;
+
+}
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(7, 6, 6);
+    text-decoration: none;
+
+}
+
+.logo{
+letter-spacing: 1px;
+font-family: Arial, Helvetica, sans-serif;
+align-items:start;
+height: 30px;
+
+}
+
+.search-bar{
+align-items: end;
+text-align: end;
+
+}
+
+ /* header section design end here */
+
+
+ /* Hero section design started */
+
+ .hero{
+    height: 80vh;
+    width: 100%;
+    background-image: url(https://img.freepik.com/premium-vector/abstract-black-red-halftone-dotted-background_567288-891.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    padding-left: 30px;
+    
+    
+ }
+ .left-sec{
+    align-self: center;
+    
+   flex: 1;
+    color: white;
+   
+ }
+.left-sec h1{
+    align-items: center;
+    font-size: 40px;
+    color: yellow;
+}
+
+.left-sec button{
+
+    color: blackw;
+    background-color: yellow;
+    padding: 12px 10px 10px 12px;
+}
+
+ .right-sec{
+flex: 1;
+align-items: end;
+
+ }
+
+ .right-sec img {
+    max-width: 100%; /* Make the image responsive */
+    max-height: 100%; /* Make the image responsive */
+}
+
+/* about us section started here */
+
+
+.about{
+    display: flex;
+    height: 20vh;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 30px 30px 30px;
+    margin-bottom: 60px;
+}
+
+.column{
+    
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    margin-right: 30px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+} 
+
+.about :hover{
+    background-color: rgb(229, 233, 237);
+
+}
+
+.featured-products{
+    display: flex;
+    padding: 30px 30px 30px 30px;
+
+}
+
+.product{
+    flex: 1;
+    border-color: yellow;
+    border-width: 2px;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+.product img{
+
+    max-width: 100%;
+    max-height: 100%;
+}
+.product h3{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: yellow;
+    color: black;
+row-gap: 10px;}
+
+.product button{
+
+    color: blackw;
+    background-color: yellow;
+    padding: 12px 10px 10px 12px;
+}
+
+.product button:hover {
+    background-color: black;
+    color: yellow;
+    transition: 0.5s;
+}
+
+.product:hover{
+
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    transition: 0.5s;
+    background-color: rgb(222, 226, 230);
+}
+
+ .head2 {
+
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px;
+    border-radius: 5px;
+    border-style: dotted;
+    text-align: center;
+}
+
+
+/* Foooter Section */
+
+footer{justify-content: space-between;
+    padding: 30px 30px 30px 30px;
+    display: flex;
+    background-color: yellow;
+    align-items: center;
+}
+
+
+.fone{
+    flex: 1;
+    flex-direction: column;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.ftwo{
+    flex: 1;
+    flex-direction: column;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.fthree{
+    flex: 1;
+   flex-direction: column;
+    column-width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#cpy {
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+    text-align: center;
+}
